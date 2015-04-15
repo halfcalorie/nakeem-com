@@ -1,0 +1,4 @@
+fix homedir creation to copy from /etc/skel
+figure out /chroot/home/guest/.ssh permissions with keygen
+authorized_keys file in .ssh 
+populate chroot jail with welcome message, help menu, /etc/bashrc, and games from backup of old website
