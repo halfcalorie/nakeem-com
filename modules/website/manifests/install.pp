@@ -7,7 +7,6 @@ class website::install {
     ensure   => 'present',
     uid      => '501',
     gid      => '501',
-    password => '$5$60v1h2Wz$a1AEQqe.JVgdQbD5cZgtNds3zkI.ooRoQgoG5NbR1M3',
     home     => '/home/guest',
     shell    => '/bin/bash',
     require  => Group['guest'],
